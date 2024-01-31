@@ -36,3 +36,11 @@ mydata.rename(columns={'x1':'item1'}, inplace=True)
 import pandas as pd
 데이터명.to_csv('파일을 저장할 경로/파일명.csv', 옵션)
 ```
+
+## 데이터 탐색과 시각화
+- 히스토그램
+    - matplotlib
+    - seaborn
+
+- 박스 플롯
+![Alt text](image.png)

@@ -12,9 +12,9 @@ import pandas as pd
 
 # .CSV 파일 불러오기
 mydata = pd.read_csv('C:/Users/user/Desktop/python_total/mydata.csv')
-
+print(mydata)
 # 파일 불러올 때 index 지정하기
-mydata = pd.read_csv('C:/Users/user/Desktop/python_total/mydata.csv', index_col=0)
+#mydata = pd.read_csv('C:/Users/user/Desktop/python_total/mydata.csv', index_col=0)
 
 # .txt 파일 불러오기 (구분자가 |로 되어있을 경우)
-mydata = pd.read_csv('C:/Users/user/Desktop/python_total/mydata.csv', sep='|')
+#mydata = pd.read_csv('C:/Users/user/Desktop/python_total/mydata.csv', sep='|')
