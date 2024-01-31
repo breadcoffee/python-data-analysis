@@ -40,7 +40,9 @@ import pandas as pd
 ## 데이터 탐색과 시각화
 - 히스토그램
     - matplotlib
+    ![Alt text](image-2.png)
     - seaborn
+    ![Alt text](image-1.png)
 
 - 박스 플롯
 ![Alt text](image.png)
