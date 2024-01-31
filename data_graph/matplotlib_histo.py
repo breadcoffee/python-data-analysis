@@ -1,8 +1,11 @@
+# data : 20240131
+# desc : 히스토그램
+
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-mydata = pd.read_csv('C:/Users/user/Desktop/python_total/mydata.csv')
+mydata = pd.read_csv('mydata.csv')
 mydata['HM_AVG'].hist()
 
 plt.figure(figsize=(10,5))

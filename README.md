@@ -39,10 +39,21 @@ import pandas as pd
 
 ## 데이터 탐색과 시각화
 - 히스토그램
-    - matplotlib
+    - matplotlib(평균 상대습도)
     ![Alt text](image_histogram.png)
-    - seaborn
+    - seaborn(평균 상대습도)
     ![Alt text](image_seaborn.png)
 
 - 박스 플롯
+    - 평균 상대습도
     ![Alt text](image_boxplot.png)
+
+- 산점도
+    - 강수량에 따른 전운량
+    ![Alt text](image_scatterplot.png)
+
+## 분석 알고리즘
+- 단순선형회귀
+    - 일평균 전운량에 따른 일조합(시간) 예측
+    
+    ![Alt text](image_sunlight.png)
