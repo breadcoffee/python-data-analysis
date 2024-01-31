@@ -19,3 +19,20 @@ dictionary 파일명 =
 데이터 프레임 파일명 =
 pd.DataFrame(dictionary 파일명,index=['a','b','c','d','e'])
 ```
+
+- 데이터 접근
+```python
+import pandas as pd
+
+mydata['x1'].head()
+
+mydata[1:5]['x1']
+
+mydata.rename(columns={'x1':'item1'}, inplace=True)
+```
+
+- 데이터 저장
+```python
+import pandas as pd
+데이터명.to_csv('파일을 저장할 경로/파일명.csv', 옵션)
+```
