@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 mydata = pd.read_csv('data_regression.csv') # 데이터 위치 지정
 print(mydata.head()) # 로드 데이터 확인
 
-# 데이터 정제
+# 데이터 정제(일조합 = -0.5 * 전운량 + 오차, 일조합 예측값 = -0.5 * 전운량)
 mydata.loc[mydata['SS_DAY'] == -9] # 20150520 일조합 결측치(-9) 확인
 mydata.loc[(mydata['SS_DAY'] != -9) & (mydata['CA_TOT'] == 0.5)] # 20150520을 제외한
 
@@ -36,5 +36,4 @@ plt.xlabel('CA_TOT', size=12)
 ax.plot(mydata.CA_TOT.values, mydata.SS_DAY.values, 'o', label='Data')
 ax.plot(mydata.CA_TOT.values, result.fittedvalues, 'b-', label='Regression')
 ax.legend(loc='best')
-
 plt.show()

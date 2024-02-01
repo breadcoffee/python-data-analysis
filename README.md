@@ -56,3 +56,7 @@ import pandas as pd
 - 단순선형회귀
     - 일평균 전운량에 따른 일조합(시간) 예측
     ![Alt text](/Image_file/image_sunlight.png)
+
+- K-최근접 이웃
+    - 일평균 전운량과 평균 상대습도에 따른 비(또는 눈)이 온 날 예측
+    ![Alt text](/Image_file/image_KNN.png.png)
