@@ -50,7 +50,7 @@ import pandas as pd
 
 - 산점도
     - 강수량에 따른 전운량
-    ![Alt text](\Image\image_scatterplot.png)
+    ![Alt text](Image\image_scatterplot.png)
 
 ## 분석 알고리즘
 - 단순선형회귀
