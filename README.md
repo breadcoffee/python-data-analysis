@@ -50,13 +50,16 @@ import pandas as pd
 
 - 산점도
     - 강수량에 따른 전운량
+        - CA_TOT(일평균 전운량), RN_DAY(강수량)
     ![Alt text](/Image_file/image_scatterplot.png)
 
 ## 분석 알고리즘
 - 단순선형회귀
     - 일평균 전운량에 따른 일조합(시간) 예측
+        - CA_TOT(일평균 전운량), SS_DAY(일조합)
     ![Alt text](/Image_file/image_sunlight.png)
 
 - K-최근접 이웃
     - 일평균 전운량과 평균 상대습도에 따른 비(또는 눈)이 온 날 예측
-    ![Alt text](/Image_file/image_KNN.png.png)
+        - CA_TOT(일평균 전운량), HM_AVG(평균 상대습도)
+    ![Alt text](/Image_file/image_K-NN.png.png)

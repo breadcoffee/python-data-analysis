@@ -25,7 +25,7 @@ y = mydata['RN_DAY'] # 이분형으로 변환한 강수량 변수를 종속변�
 print(y)
 
 # k-최근접 이웃 모델링
-kNN = neighbors.KNeighborsClassifier()
+kNN = neighbors.KNeighborsClassifier(n_neighbors=3)
 kNN.fit(X, y)
 Z = kNN.predict(X) # 예측값 산출
 
