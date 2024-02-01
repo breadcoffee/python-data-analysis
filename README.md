@@ -50,10 +50,9 @@ import pandas as pd
 
 - 산점도
     - 강수량에 따른 전운량
-    ![Alt text](image_scatterplot.png)
+    ![Alt text](\Image\image_scatterplot.png)
 
 ## 분석 알고리즘
 - 단순선형회귀
     - 일평균 전운량에 따른 일조합(시간) 예측
-    
     ![Alt text](image_sunlight.png)
