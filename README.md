@@ -62,4 +62,4 @@ import pandas as pd
 - K-최근접 이웃
     - 일평균 전운량과 평균 상대습도에 따른 비(또는 눈)이 온 날 예측
         - CA_TOT(일평균 전운량), HM_AVG(평균 상대습도)
-    ![Alt text](/Image_file/image_K-NN.png.png)
+    ![Alt text](/Image_file/image_K-NN.png)
