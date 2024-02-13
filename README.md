@@ -59,9 +59,9 @@ import pandas as pd
         - CA_TOT(일평균 전운량), SS_DAY(일조합)
     ![Alt text](/Image_file/image_sunlight.png)
 
-- K-최근접 이웃
+- K-최근접 이웃 <Data_algorithm/K_NN_Algorithm.ipynb>
     - 일평균 전운량과 평균 상대습도에 따른 비(또는 눈)이 온 날 예측
         - CA_TOT(일평균 전운량), HM_AVG(평균 상대습도)
 
-[K-NN Algorithm 클릭](Data_algorithm/K_NN_Algorithm.ipynb)
+
     ![Alt text](/Image_file/image_K-NN.png)
