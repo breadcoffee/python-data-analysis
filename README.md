@@ -38,33 +38,28 @@ import pandas as pd
 ```
 
 ## 데이터 탐색과 시각화
-- 히스토그램
-- [scatter_plot 링크](Data_graph/matplotlib_histo.ipynb)
+- [히스토그램](Data_graph/matplotlib_histo.ipynb)
     - matplotlib(평균 상대습도)
     ![Alt text](/Image_file/image_histogram.png)
     - seaborn(평균 상대습도)
     ![Alt text](/Image_file/image_seaborn.png)
 
-- 박스 플롯
-- [box-plot 링크](Data_graph/box_plot.ipynb)
+- [박스 플롯](Data_graph/box_plot.ipynb)
     - 평균 상대습도
     ![Alt text](/Image_file/image_boxplot.png)
 
-- 산점도
-- [scatter_plot 링크](Data_graph/scatter_plot.ipynb)
+- [산점도](Data_graph/scatter_plot.ipynb)
     - 강수량에 따른 전운량
         - CA_TOT(일평균 전운량), RN_DAY(강수량)
     ![Alt text](/Image_file/image_scatterplot.png)
 
 ## 분석 알고리즘
-- 단순선형회귀
-- [Simple-linear-regression 링크](Data_algorithm/Simple_linear_regression.ipynb)
+- [단순선형회귀](Data_algorithm/Simple_linear_regression.ipynb)
     - 일평균 전운량에 따른 일조합(시간) 예측
         - CA_TOT(일평균 전운량), SS_DAY(일조합)
     ![Alt text](/Image_file/image_sunlight.png)
 
-- K-최근접 이웃
-- [K-NN Algorithm 링크](Data_algorithm/K_NN_Algorithm.ipynb)
+- [K-최근접 이웃](Data_algorithm/K_NN_Algorithm.ipynb)
     - 일평균 전운량과 평균 상대습도에 따른 비(또는 눈)이 온 날 예측
         - CA_TOT(일평균 전운량), HM_AVG(평균 상대습도)
 
